@@ -117,6 +117,14 @@ To test the `/api/user` endpoint using Postman, first create a new user using Ti
   echo $token;
   ```
 
+* **Run The Application**
+
+  Make sure you start the application again after creating a new user, type the following command:
+
+   ```bash
+   php artisan serve
+   ```
+
 * **Set Up Postman:**
 
   * Open Postman and create a new GET request to:
